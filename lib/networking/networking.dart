@@ -13,7 +13,7 @@ class Networking {
         String str = result[0]['word'];
         
         str.replaceAll('-', ' ');
-        print(str);
+        
         return str.toUpperCase();
       } else {
         return null;
