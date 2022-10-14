@@ -1,6 +1,6 @@
 import 'package:http/http.dart' as http;
 import 'dart:convert';
-
+ 
 class Networking {
   static Future<String?> fetchData() async {
       const String api = 'https://random-words-api.vercel.app/word';
